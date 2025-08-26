@@ -40,7 +40,8 @@ dataset_name = "dados_ficticios"
 output_dir = "relatorios_sweetviz"
 os.makedirs(output_dir, exist_ok=True)
 
-profiling_html_path = os.path.join(output_dir, f"{dataset_name}.html")
-
 profile_report = sv.analyze(sample, pairwise_analysis='on')
+
+profiling_html_path = os.path.join("dados/dado_teste", f"{dataset_name}.html")
+os.makedirs(os.path.dirname(profiling_html_path), exist_ok=True)
 profile_report.show_html(profiling_html_path)
