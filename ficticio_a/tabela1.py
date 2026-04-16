@@ -34,7 +34,7 @@ sample = data.groupby("txt_modalidade", group_keys=False).apply(
 )
 
 sample.to_csv("amostra_sdc.csv", index=False, encoding="utf-8-sig")
-print("✅ Amostra estratificada salva como 'amostra_sdc.csv'")
+print("Amostra  salva como 'amostra_sdc.csv'")
 
 dataset_name = "dados_ficticios"
 output_dir = "relatorios_sweetviz"
