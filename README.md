@@ -23,7 +23,7 @@ Anonimizacao-de-dados/
 │   ├── dados ficticios.csv          # Base principal de testes (delimitador ";", encoding Latin1)
 │   ├── dados_ficticios_tabelao.csv  # Base complementar em formato tabular amplo
 │   ├── amostra_sdc.csv              # Amostra gerada a partir do pré-processamento Python
-│   └── eda_amostra.csv              # Resultados/arquivos auxiliares de análise exploratória
+│   └── eda_amostra.csv              # Dados fictícios gerados a partir do arquivo original
 ├── ficticio_a/                      # Implementação principal de técnicas de SDC
 │   ├── tabela1.py                   # Script Python: Pré-processamento, amostragem estratificada e Sweetviz
 │   ├── tabela1.r                    # Script R: k-Anonimato (k=5) e perturbação categórica via PRAM
