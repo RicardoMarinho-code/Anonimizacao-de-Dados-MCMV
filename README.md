@@ -1,5 +1,12 @@
 # 🔒 Anonimização de Dados e Controle de Divulgação Estatística (SDC)
 
+<p align="left">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="Licença MIT"></a>
+  <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="Licença CC BY 4.0"></a>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/R-4.0%2B-blue.svg" alt="R 4.0+">
+</p>
+
 Este repositório contém uma implementação prática de técnicas de **Controle de Divulgação Estatística (SDC - Statistical Disclosure Control)** e **Anonimização de Microdados**. O projeto demonstra como processar, limpar, generalizar e aplicar salvaguardas matemáticas de privacidade em bases de dados sensíveis utilizando tanto **Python** (com Pandas e Sweetviz) quanto **R** (com o pacote especializado `sdcMicro`).
 
 O objetivo principal é garantir a privacidade de indivíduos e organizações (prevenindo a reidentificação), enquanto se preserva ao máximo a utilidade analítica dos dados para estudos e relatórios estatísticos.
@@ -133,3 +140,10 @@ Abaixo estão alguns dos pilares observados neste repositório:
 ## 📝 Licença e Contribuição
 
 Este projeto foi desenvolvido para fins educacionais e profissionais de proteção de dados. Sinta-se à vontade para abrir *Issues* ou enviar *Pull Requests* com melhorias nos algoritmos de SDC ou na modelagem de privacidade.
+
+### Licenciamento
+
+Este repositório é distribuído sob licenças de uso livre para fins educacionais, acadêmicos e profissionais:
+
+*   **Código-Fonte (Python e R):** Licenciado sob a [Licença MIT](LICENSE). Isso significa que você pode usar, copiar, modificar, mesclar, publicar e distribuir o código livremente, contanto que mantenha o aviso de direitos autorais original.
+*   **Dados Fictícios e Documentação:** Licenciados sob a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Você é livre para compartilhar, copiar e adaptar os materiais de apoio contanto que atribua o devido crédito ao autor original.
